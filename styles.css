@@ -58,9 +58,17 @@ img {
 .header {
 }
 
+.headerNav {
+  display: flex;
+  flex-direction: column;
+}
 
 .navList {
+  /*display: flex;
+  align-items: center;*/
+  gap: 20px;
   list-style: none;
+  display: none;
 }
 
 /* MAIN */
