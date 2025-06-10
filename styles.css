@@ -1,0 +1,76 @@
+/* GLOBAL */
+:root {
+  /*fargevariabler*/
+  --primaryColor: blue;
+  --secondaryColor: yellow;
+  --accentColor: purple;
+  --headingColor: Orange;
+  --textColor: pink;
+  --lightBackground: white;
+  --darkBackground: black;
+
+  /*Størrelse variabler*/
+  --smallSpace: 8px;
+  --mediumSpace: 16px;
+  --largeSpace: 24px;
+  --gap: 100px;
+  --fullScreen: 100vh;
+
+  /*Skrift variabler*/
+  --fontHeading: 'Times New Roman';
+  --fontParagraph: 'Verdana';
+  --fontSize: 18px;
+}
+
+.fiftyFifty {
+  max-width: 50%;
+}
+
+.fullScreen {
+  min-height: var(--fullScreen);
+}
+
+.flexTrueCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexSpaceBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background-color: var(--darkBackground);
+}
+
+section {
+  height: 100vh;
+}
+
+img {
+  width: 50%;
+}
+
+/* HEADER */
+.header {
+}
+
+
+.navList {
+  list-style: none;
+}
+
+/* MAIN */
+
+
+/* FOOTER */
+.footer {
+}
+
+/* MEDIA */
+@media (max-width: 426px) {
+  /* Empty */
+}
