@@ -44,10 +44,10 @@
 
 .gridContainer{
   display: grid;
-  grid-template-areas: "heroHeading heroHeading"
-  "heroText heroImg" ;
-  grid-template-columns: 300px 1fr;
-  grid-template-rows: 1fr;
+  grid-template-areas: "heading heading"
+  "text img" ;
+  grid-template-columns: 500px 1fr;
+  grid-template-rows: auto 1fr;
   height: 1vh;
   gap: 20px;
   padding: 10px;
