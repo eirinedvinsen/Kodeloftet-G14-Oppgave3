@@ -64,11 +64,11 @@ img {
 }
 
 .navList {
-  /*display: flex;
-  align-items: center;*/
-  gap: 20px;
+  display: flex;
+  align-items: flex-start;
   list-style: none;
-  display: none;
+  gap: 20px;
+
 }
 
 /* MAIN */
