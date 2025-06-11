@@ -42,6 +42,17 @@
   justify-content: space-between;
 }
 
+.gridContainer{
+  display: grid;
+  grid-template-areas: "heroHeading heroHeading"
+  "heroText heroImg" ;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 1fr;
+  height: 1vh;
+  gap: 20px;
+  padding: 10px;
+}
+
 body {
   background-color: var(--darkBackground);
 }
