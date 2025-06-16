@@ -56,6 +56,11 @@ h1, h2, p {
   padding: 0 16px;
 }
 
+.headerLogo{
+  width: 150px;
+  height: 150px;
+}
+
 /* Nav */
 .navList {
   display: flex;
