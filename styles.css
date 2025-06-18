@@ -25,7 +25,6 @@
 body {
   margin: 0;
   font-family: var(--fontFamily);
-  background-color: var(--primaryColor);
 }
 
 img {
@@ -55,6 +54,11 @@ h1, h2, p {
 }
 
 /*background*/
+
+.purple{
+  background-color: var(--primaryColor);
+}
+
 .webb {
   background-image: url('images/webbteleskop.jpg');
   background-attachment: fixed;
