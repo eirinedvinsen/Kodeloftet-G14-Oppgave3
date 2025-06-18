@@ -36,16 +36,30 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.bgImg {
   background-image: url('webbteleskop.jpg');
   min-height: 100%;
 }
 
+.orange {
+  background-color: orange;
+  color: purple;
+}
+
+
+.icon {
+  height: 32px;
+  width: 32px;
+}
+
+.hidden {
+  display: none;
+}
+
+
 h1, h2, p {
   background-color: rgba(0, 0, 0, 0.486);
   color: var(--accentColor)
+  var(--fontFamily)
 }
 
 /* HEADER */
