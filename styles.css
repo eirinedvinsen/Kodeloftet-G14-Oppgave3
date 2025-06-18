@@ -1,7 +1,7 @@
 :root {
   /* Farge variabler */
-  --primaryColor: rgb(10, 2, 43); /* Peach */
-  --secondaryColor: rgb(201, 197, 255); /* Tea rose red*/
+  --primaryColor: #fcc388ff; /* Peach */
+  --secondaryColor: #ffc5c9ff; /* Tea rose red*/
   --accentColor: #ffffd1ff; /* Cream */
   --accentColorTwo: #fee5d0ff; /* Champagne pink*/
   --accentColorThree: #fff6edff; /* Seashell */
@@ -25,6 +25,7 @@
 body {
   margin: 0;
   font-family: var(--fontFamily);
+  background-image: url("images/webbteleskop.jpg");
 }
 
 img {
@@ -54,26 +55,9 @@ h1, h2, p {
 }
 
 /*background*/
-body{
-  background-color: var(--primaryColor) ;
-}
-
-header{
-  background-color: var(--primaryColor);
-}
-
-.webbBackground {
-  background-image: url('images/webbteleskop.jpg');
+.body {
+  background-image: url('webbteleskop.jpg');
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat, repeat;
-  background-size: cover;
-  min-height: 100vh;
-}
-
-.hubbelBackground {
-  background-image: url("images/hubbelbackground.jpg");
-    background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat, repeat;
   background-size: cover;
