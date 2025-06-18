@@ -36,8 +36,9 @@ img {
   width: 32px;
 }
 
-.hidden {
-  display: none;
+a {
+  text-decoration: none;
+  color: var(--accentColor);
 }
 
 
