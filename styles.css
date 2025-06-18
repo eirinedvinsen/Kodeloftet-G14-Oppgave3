@@ -1,7 +1,7 @@
 :root {
   /* Farge variabler */
-  --primaryColor: #fcc388ff; /* Peach */
-  --secondaryColor: #ffc5c9ff; /* Tea rose red*/
+  --primaryColor: rgb(10, 2, 43); /* Peach */
+  --secondaryColor: rgb(201, 197, 255); /* Tea rose red*/
   --accentColor: #ffffd1ff; /* Cream */
   --accentColorTwo: #fee5d0ff; /* Champagne pink*/
   --accentColorThree: #fff6edff; /* Seashell */
@@ -25,26 +25,11 @@
 body {
   margin: 0;
   font-family: var(--fontFamily);
-  background-image: url("images/webbteleskop.jpg");
 }
 
 img {
   max-width: 50%;
 }
-.bgImg {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('webbteleskop.jpg');
-  min-height: 100%;
-}
-
-.orange {
-  background-color: orange;
-  color: purple;
-}
-
 
 .icon {
   height: 32px;
@@ -58,8 +43,46 @@ img {
 
 h1, h2, p {
   background-color: rgba(0, 0, 0, 0.486);
-  color: var(--accentColor)
-  var(--fontFamily)
+  font: var(--fontFamily);
+  color: var(--accentColor);
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 200px;
+}
+
+/*background*/
+body{
+  background-color: var(--primaryColor) ;
+}
+
+header{
+  background-color: var(--primaryColor);
+}
+
+.webbBackground {
+  background-image: url('images/webbteleskop.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.hubbelBackground {
+  background-image: url("images/hubbelbackground.jpg");
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.orange {
+  background-color: orange;
+  color: purple;
 }
 
 /* HEADER */
@@ -68,11 +91,6 @@ h1, h2, p {
   align-items: center;
   justify-content: space-between;
   padding: 0 16px;
-}
-
-.headerLogo{
-  width: 150px;
-  height: 150px;
 }
 
 /* Nav */
@@ -92,6 +110,15 @@ h1, h2, p {
   align-items: center;
   justify-content: space-around;
 }
+
+.webb {
+ 
+}
+
+.hubbel{
+
+}
+
 
 /* FOOTER */
 .footer {
