@@ -1,3 +1,9 @@
+:root {  
+    /* Skrift variabler */
+    --fontFamily: "Roboto";
+    --fontSize: 18px;
+  }
+
 .background{
     background-color: hotpink;
 }
@@ -11,4 +17,8 @@
 a {
     text-decoration: none;
     color: cyan;
+}
+
+p {
+    font-family: var(--fontFamily);
 }
