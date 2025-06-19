@@ -48,6 +48,20 @@ h1, h2, p {
   color: var(--accentColor);
 }
 
+.flexTrueCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: 
+  "heading heading"
+  "img text"
+  ;
+}
+
 .heading {
   display: flex;
   justify-content: center;
