@@ -34,6 +34,7 @@ img {
 .icon {
   height: 32px;
   width: 32px;
+  cursor: pointer;
 }
 
 a {
@@ -134,6 +135,9 @@ h1, h2, p {
   min-height: 90vh;
 }
 
+.nyanCat {
+  cursor: pointer;
+  }
 
 /* FOOTER */
 .footer {
